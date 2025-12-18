@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-4 kadai", "5-4 kadai\5-4 kadai.csproj", "{70DC3354-28E7-413D-83DB-3C1EED6C311A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "benkyou5-4", "..\benkyou5-4\benkyou5-4\benkyou5-4.csproj", "{00E84278-21C2-7877-B10E-5A143781F648}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70DC3354-28E7-413D-83DB-3C1EED6C311A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DC3354-28E7-413D-83DB-3C1EED6C311A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DC3354-28E7-413D-83DB-3C1EED6C311A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DC3354-28E7-413D-83DB-3C1EED6C311A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E84278-21C2-7877-B10E-5A143781F648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E84278-21C2-7877-B10E-5A143781F648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E84278-21C2-7877-B10E-5A143781F648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E84278-21C2-7877-B10E-5A143781F648}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADDFBCFE-5553-41CC-969F-0459FDA74718}
+	EndGlobalSection
+EndGlobal
