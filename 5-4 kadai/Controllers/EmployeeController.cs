@@ -28,6 +28,26 @@ namespace benkyou5_4.WebAPI.Controllers
             _context.SaveChanges();
             return Ok(employee);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutEmployee(int id, Employee employee)
+        {
+            if (id != employee.Id) return BadRequest();
+            _context.Entry(employee).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        // ⑤ DELETE
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteEmployee(int id)
+        {
+            var employee = await _context.Employees.FindAsync(id);
+            if (employee == null) return NotFound();
+            _context.Employees.Remove(employee);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
     }
 }
 
