@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using benkyou5_4.WebAPI.Data;     // DbContext の場所
-using benkyou5_4.Models;          // Employee.cs の namespace に合わせる
+using SharedModels; // Employee.cs の namespace に合わせる
 
 namespace benkyou5_4.WebAPI.Controllers
 {
@@ -24,7 +24,7 @@ namespace benkyou5_4.WebAPI.Controllers
         [HttpPost]
         public IActionResult AddEmployee(Employee employee)
         {
-            _context.Employees.Add(employee);
+            _context.Employees.Add(employee);  //　ここエラー cs1503
             _context.SaveChanges();
             return Ok(employee);
         }

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using benkyou5_4.Models;   // ← Employee.cs の namespace に合わせる
+using SharedModels;   // ← Employee.cs の namespace に合わせる ここにエラー　ｃｓ０２３４
 
 namespace benkyou5_4.WebAPI.Data   // ← WebAPI プロジェクトの namespace に合わせる
 {
@@ -10,7 +10,7 @@ namespace benkyou5_4.WebAPI.Data   // ← WebAPI プロジェクトの namespace
         {
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Employee> Employees { get; set; }　　// cs0246
     }
 }
 

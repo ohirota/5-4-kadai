@@ -1,4 +1,4 @@
-﻿namespace benkyou5_4.Models
+﻿namespace SharedModels
 
 {
     public class Employee
