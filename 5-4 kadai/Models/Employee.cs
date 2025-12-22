@@ -1,12 +1,13 @@
 ﻿namespace SharedModels
-
 {
     public class Employee
     {
-        public int Id { get; set; }        // 主キー
-        public string Name { get; set; }   // 名前
-        public string Department { get; set; } // 部署
-        public int EmployeeAge { get; set; }       // 年齢
+        public int Id { get; set; }
+        public string Name { get; set; } = "";
+        public string Department { get; set; } = "";
+        public DateTime HireDate { get; set; }
     }
 }
+
+
 
